@@ -1,14 +1,20 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <link href="/style.css" rel="stylesheet"/>
-        <title>  Snake Game </title>
-    </head>
-    <body>
-        <h1>  🐍 Snake Game 🐍 </h1>
-        <button id="start">Start</button>
-        <h2>Score <span id="score">0</span></h2>
-        <div class="grid"></div>
-        <script src="/script.js"></script>
-    </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>Snake Game</h1>
+    <div id="score-container">
+        Score: <span id="score">0</span> | Best: <span id="best-score">0</span>
+    </div>
+    <div class="grid" id="grid"></div>
+    <button id="startBtn">Start Game</button>
+
+    <script src="script.js"></script>
+</body>
 </html>
